@@ -6,7 +6,7 @@ const ProductCard = ({ id, title, description, price, thumbnail, category }: Pro
   return (
     <div className='product-card mb-10 mr-5 max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800'>
       <div className='product-card--img-cover flex items-center justify-center px-3'>
-        <img className='h-full w-full  rounded-t-lg p-8 ' src={thumbnail} alt='product image' />
+        <img className='h-full w-full rounded-t-lg p-8 ' src={thumbnail} alt='product' />
       </div>
       <div className='px-5 pb-5'>
         <h5 className='mb-7 text-xl font-semibold tracking-tight text-gray-900 dark:text-white'>{title}</h5>
