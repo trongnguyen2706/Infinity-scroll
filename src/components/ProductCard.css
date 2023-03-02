@@ -1,0 +1,9 @@
+.product-card--img-cover {
+  width: 383px;
+  height: 240px;
+}
+
+.product-card {
+  height: 400px;
+  width: 400px;
+}
